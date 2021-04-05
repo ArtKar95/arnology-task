@@ -76,9 +76,7 @@
     input[type="button"] {
       width: 450px;
       height: 38px;
-      color: white;
-      background: #e05433;
-      border: 1px solid #e05433;
+      @include button-styles(white, 0, #e05433, 1px solid #e05433);
       box-sizing: border-box;
     }
 

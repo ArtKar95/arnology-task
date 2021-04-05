@@ -77,7 +77,7 @@ const Bootcamps = () => {
             <h4>Rating</h4>
             <input type="number" id="b" name="b" placeholder="Any" />
             <h3>Budget</h3>
-            <input type="number" id="b" name="b" placeholder="Any" />
+            <input type="number" id="b" name="b" placeholder="Any" /> <br />
             <input type="submit" value="Find Bootcamps" />
           </div>
         </div>

@@ -44,10 +44,7 @@
     }
 
     form input:last-child {
-      color: #ffffff;
-      background-color: #e05433;
-      border: 1px solid #e05433;
-      margin-top: 15px;
+      @include button-styles(white, 15px, #e05433, 1px solid #e05433);
     }
 
     span {

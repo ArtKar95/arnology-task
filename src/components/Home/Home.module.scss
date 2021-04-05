@@ -50,13 +50,9 @@ main {
 
       input {
         width: calc(70% + 20px + 35px);
-        border: none;
         outline: none;
-        cursor: pointer;
-        margin-top: 15px;
         padding: 10px 0px;
-        background-color: #e05433;
-        color: #ffffff;
+        @include button-styles(white, 15px, #e05433, none);
         font-size: 15px;
         line-height: 24px;
       }

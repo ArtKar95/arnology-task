@@ -5,29 +5,21 @@
   font-size: 16px;
   line-height: 20px;
 
-
   .pageNumber {
     padding: 8px 13px;
-    background: #ffffff;
-    border: 1px solid #dee2e6;
+    @include button-styles(#e05433, 0px, #ffffff, 1px solid #dee2e6);
     box-sizing: border-box;
     border-radius: 0px;
-    cursor: pointer;
-    color: #e05433;
   }
-  
+
   .pageNumber.selectedPage {
     font-weight: bold;
     border-color: #e05433;
   }
-  
+
   button {
     font-weight: bold;
     padding: 11px 13px;
-    background: #ffffff;
-    border: 1px solid #dee2e6;
-    cursor: pointer;
-    color: #e05433;
+    @include button-styles(#e05433, 0px, #ffffff, 1px solid #dee2e6);
   }
-  
 }

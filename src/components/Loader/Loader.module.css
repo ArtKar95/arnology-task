@@ -3,7 +3,7 @@
   height: 100%;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -146,8 +146,8 @@
 }
 
 @media only screen and (max-width: 693px) {
-  .containerLoader .containerLoader {
-    margin-left: 100px;
+  .containerLoader .loader {
+    margin: auto;
   }
 }
 /*# sourceMappingURL=Loader.module.css.map */

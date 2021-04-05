@@ -58,10 +58,10 @@
 }
 
 .loginContainer .login form input:last-child {
-  color: #ffffff;
+  color: white;
+  margin-top: 15px;
   background-color: #e05433;
   border: 1px solid #e05433;
-  margin-top: 15px;
 }
 
 .loginContainer .login span {
